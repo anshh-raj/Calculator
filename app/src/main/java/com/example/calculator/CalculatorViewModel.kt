@@ -61,7 +61,7 @@ class CalculatorViewModel: ViewModel() {
     }
 
     private fun enterDecimal() {
-        if(state.operation == null && !state.number1.contains(". ")
+        if(state.operation == null && !state.number1.contains(".")
             && state.number1.isNotBlank())
         {
             state = state.copy(
